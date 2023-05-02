@@ -3,11 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Aspiration extends CI_Controller
 {
-    public function Index()
-    {
-        $this->load->view('');
-    }
-
     public function Proses_Aspiration()
     {
         $nim = $this->input->post('nim');

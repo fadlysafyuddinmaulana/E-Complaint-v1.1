@@ -1,4 +1,4 @@
-<div class="register-box">
+<div class="register-box" style="width: 400px;">
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
             <div class="h1"><b>Complaint</b> Box</div>
@@ -13,11 +13,11 @@
                 </div>
                 <div class="form-group">
                     <label>Keluhan Anda</label>
-                    <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                    <textarea class="form-control" rows="4" placeholder="Enter ..." style="resize: none;"></textarea>
                 </div>
                 <div class="form-group">
                     <label>Saran Anda</label>
-                    <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                    <textarea class="form-control" rows="4" placeholder="Enter ..." style="resize: none;"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputFile">File input</label>
@@ -30,7 +30,7 @@
                     <span style="text-align: justify;" class="sm-1">Notes:Jika anda punya bukti sebuah foto/dokumen bisa di upload.</span>
                 </div>
                 <div class="row mt-3">
-                    <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
                 </div>
             </form>
         </div>

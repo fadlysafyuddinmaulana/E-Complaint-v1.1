@@ -5,7 +5,7 @@ class Starter_Page extends CI_Controller
 {
     public function Index()
     {
-        $data['title'] = 'Aspiration Page';
+        $data['title'] = 'Complaint Box';
 
         $this->load->view('Page-Layout/Aspiration-Layout/Header', $data);
         $this->load->view('Starter-Page/Aspiration-Page', $data);
