@@ -1,0 +1,2 @@
+<?= base_url() ?>assets/AdminLTE-3.2.0/
+<?= base_url() ?>assets/Pattern/
