@@ -31,4 +31,12 @@ class M_Sql extends CI_Model
         $this->db->where('nim', $nim);
         return $this->db->get('table');
     }
+
+    public function check_petugas($u, $p)
+    {
+        $this->db->where('username', $u);
+        $this->db->where('password', $p);
+
+        return $this->db->get('tb_admin');
+    }
 }

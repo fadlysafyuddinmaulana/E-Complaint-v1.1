@@ -13,11 +13,19 @@
                 </div>
                 <div class="form-group">
                     <label>Keluhan Anda</label>
+<<<<<<< HEAD
                     <textarea class="form-control" rows="4" placeholder="Enter ..." style="resize: none;"></textarea>
                 </div>
                 <div class="form-group">
                     <label>Saran Anda</label>
                     <textarea class="form-control" rows="4" placeholder="Enter ..." style="resize: none;"></textarea>
+=======
+                    <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Saran Anda</label>
+                    <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+>>>>>>> fd67a91945c574e05fcac74b735b3041f068f13f
                 </div>
                 <div class="form-group">
                     <label for="exampleInputFile">File input</label>
@@ -30,7 +38,11 @@
                     <span style="text-align: justify;" class="sm-1">Notes:Jika anda punya bukti sebuah foto/dokumen bisa di upload.</span>
                 </div>
                 <div class="row mt-3">
+<<<<<<< HEAD
                     <button type="submit" class="btn btn-primary btn-block">Submit</button>
+=======
+                    <button type="submit" class="btn btn-primary btn-block">Register</button>
+>>>>>>> fd67a91945c574e05fcac74b735b3041f068f13f
                 </div>
             </form>
         </div>
